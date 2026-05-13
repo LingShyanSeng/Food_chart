@@ -301,7 +301,7 @@ fig.add_annotation(
     xref="paper",
     yref="paper",
     x=0,
-    y=-0.20,
+    y=-0.18,
     showarrow=False,
     align="left"
 )
@@ -311,7 +311,7 @@ fig.add_annotation(
 # -----------------------------------
 fig.update_layout(
     template="plotly_white",
-    height=800,
+    height=700,
     title=f"{metric_label[y_col]} across premises",
     xaxis=dict(title="Date", type="date"),
     yaxis=dict(title=metric_label[y_col]),
