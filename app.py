@@ -300,7 +300,7 @@ fig.add_annotation(
     xref="paper",
     yref="paper",
     x=0,
-    y=-0.18,
+    y=-0.15,
     showarrow=False,
     align="left"
 )
