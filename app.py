@@ -293,6 +293,19 @@ for premise in premises:
         )
     )
 
+fig.add_annotation(
+    text=(
+        "Dashed lines = no observations (data gaps bridged)<br>"
+        "CPI base = first week's price per item per premise"
+    ),
+    xref="paper",
+    yref="paper",
+    x=0,
+    y=-0.15,
+    showarrow=False,
+    align="left"
+)
+
 # -----------------------------------
 # LAYOUT
 # -----------------------------------
