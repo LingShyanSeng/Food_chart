@@ -144,8 +144,8 @@ def load_all():
 
         folder = safe_folder_name(premise)
 
-        price_path = f"output/premise_type/{folder}/time_series/price"
-        count_path = f"output/premise_type/{folder}/time_series/count"
+        price_path = f"premise_type/{folder}/time_series/price"
+        count_path = f"premise_type/{folder}/time_series/count"
 
         df_price = load_time_series(price_path, "price")
 
